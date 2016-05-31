@@ -53,6 +53,22 @@
         justify-content: space-between;
       }
     }
+    .yeoman-list-prompt {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      .choice {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        &:hover {
+          background-color: @background-color-highlight;
+        }
+      }
+    }
   }
 
   input[type="text"], input[type="password"] {
