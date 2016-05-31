@@ -1,9 +1,6 @@
 
 - Add YeomanPromptEnhancer to manage message, filters and validaters
 - Implement YeomanListPrompt
-- Implement YeomanInputPrompt
-- Implement YeomanPasswordPrompt
-- Implement YeomanConfirmPrompt
 - Implement YeomanExpandPrompt
 - Implement YeomanRawlistPrompt
 - Make a diff panel
