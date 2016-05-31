@@ -1,0 +1,14 @@
+
+- Add YeomanPromptEnhancer to manage message, filters and validaters
+- Implements YeomanListPrompt
+- Implements YeomanInputPrompt
+- Implements YeomanPasswordPrompt
+- Implements YeomanConfirmPrompt
+- Make a diff panel
+- Manage diffs
+- Make a LogPanel
+- Manage logs
+- Add env.adapter = MyAdapter
+- Manage Generator onClick to run env.run
+- Add a RefreshButton for generators
+- Handle ModalPanel escape and enter
