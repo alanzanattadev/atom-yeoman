@@ -1,5 +1,7 @@
 
 - Add YeomanPromptEnhancer to manage message, filters and validaters
+- Handles default values
+- Handles keyboard
 - Implement YeomanExpandPrompt
 - Make a diff panel
 - Manage diffs
