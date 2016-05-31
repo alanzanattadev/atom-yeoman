@@ -47,7 +47,7 @@
       justify-content: flex-start;
       align-items: stretch;
       .choice {
-        margin: 10px;
+        margin: 5px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -60,13 +60,27 @@
       justify-content: flex-start;
       align-items: stretch;
       .choice {
-        margin: 10px;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid @base-background-color;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         &:hover {
           background-color: @background-color-highlight;
         }
+      }
+      .indicator {
+        margin-right: 10px;
+      }
+    }
+
+    .yeoman-prompt-enhancer {
+      display: flex;
+      flex-direction: column;
+
+      .message {
+        margin-bottom: 10px;
       }
     }
   }
