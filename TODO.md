@@ -1,6 +1,9 @@
 
 - Manage filters and validaters
 - Handles default values
+  - ConfirmPrompt
+  - RawListPrompt
+  - ListPrompt
 - Handles keyboard
 - Implement YeomanExpandPrompt
 - Make a diff panel
