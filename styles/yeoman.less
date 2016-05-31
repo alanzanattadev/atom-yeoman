@@ -1,0 +1,37 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.yeoman {
+  .yeoman-right-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;;
+
+    .yeoman-generators {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      padding: 10px;
+    }
+    .yeoman-generator {
+      border: 1px solid @background-color-highlight;
+      padding: 5px 10px;
+      margin: 5px;
+      text-align: center;
+      &:hover {
+        background-color: @background-color-highlight;
+      }
+      &.namespace {
+        margin-right: 5px;
+      }
+      &.name {
+        margin-left: 5px;
+      }
+    }
+  }
+}
