@@ -1,5 +1,5 @@
 
-- Add YeomanPromptEnhancer to manage message, filters and validaters
+- Manage filters and validaters
 - Handles default values
 - Handles keyboard
 - Implement YeomanExpandPrompt
