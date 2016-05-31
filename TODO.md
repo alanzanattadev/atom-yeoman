@@ -12,7 +12,6 @@
 - Manage diffs
 - Make a LogPanel
 - Manage logs
-- Add env.adapter = MyAdapter
 - Manage Generator onClick to run env.run
 - Add a RefreshButton for generators
 - Handle ModalPanel escape and enter
