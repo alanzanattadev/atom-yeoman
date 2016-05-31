@@ -14,5 +14,5 @@
 - Manage logs
 - Manage Generator onClick to run env.run
 - Add a RefreshButton for generators
-- Handle ModalPanel escape and enter
+- Handle ModalPanel escape
 - Add colors on generators
