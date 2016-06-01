@@ -12,9 +12,17 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "consumedServices": {
+    "taskRunner": {
+      "versions": {
+        "^1.0.0": "consumeTaskRunner"
+      }
+    }
+  },
   "dependencies": {
     "classnames": "^2.2.5",
     "immutable": "^3.8.1",
+    "loophole": "^1.1.0",
     "react-for-atom": "^15.0.2-1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
