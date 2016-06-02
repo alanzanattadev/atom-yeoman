@@ -7,7 +7,6 @@
   - RawListPrompt
   - ListPrompt
   - ConfirmPrompt
-- Implement YeomanExpandPrompt
 - Make a diff panel
 - Manage diffs
 - Make a LogPanel
