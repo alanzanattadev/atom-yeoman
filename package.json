@@ -26,6 +26,7 @@
     "react-for-atom": "^15.0.2-1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "yeoman-environment": "^1.6.1"
+    "yeoman-environment": "^1.6.1",
+    "yeoman-generator": "^0.21.2"
   }
 }
