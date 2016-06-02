@@ -1,8 +1,5 @@
 
 - Manage filters and validaters
-- Handles default values
-  - RawListPrompt
-  - ListPrompt
 - Handles keyboard
   - RawListPrompt
   - ListPrompt
