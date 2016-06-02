@@ -1,6 +1,7 @@
 
 - Manage filters and validaters
-- Handles keyboard
+- Handle Separator
+- Handle keyboard
   - RawListPrompt
   - ListPrompt
   - ConfirmPrompt
