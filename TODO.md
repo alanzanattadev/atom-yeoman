@@ -1,5 +1,6 @@
 
 - Manage filters and validaters
+- Handles functions in questions
 - Handle Separator
 - Handle keyboard
   - RawListPrompt
@@ -10,5 +11,4 @@
 - Make a LogPanel
 - Manage logs
 - Add a RefreshButton for generators
-- Handle ModalPanel escape
 - Add colors on generators
