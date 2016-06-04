@@ -164,4 +164,28 @@
         background-color: @background-color-success;
       }
     }
+
+    .project-selection-panel {
+      .projects {
+        display: flex;
+        padding: 5px;
+        margin: 10px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        background-color: @base-background-color;
+        .project {
+          margin: 5px;
+          padding: 10px 5px;
+          border: 1px solid @text-color-subtle;
+          cursor: pointer;
+          span {
+            color: @text-color;
+          }
+          :hover {
+            background-color: @background-color-highlight;
+          }
+        }
+      }
+    }
 }
