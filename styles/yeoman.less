@@ -7,6 +7,7 @@
 .yeoman {
   display: flex;
   .yeoman-right-panel {
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -14,10 +15,11 @@
 
     .yeoman-generators {
       display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: flex-start;;
       padding: 10px;
+      overflow-y: scroll;
     }
     .yeoman-generator {
       padding: 5px 10px;
@@ -33,6 +35,7 @@
         border: 0;
         margin: 5px 0px;
         width: 100%;
+        transition: all 0.2s;
       }
       &:hover {
         hr {
@@ -44,7 +47,7 @@
       }
     }
     .yeoman-subgenerator {
-      border: 1px solid @syntax-cursor-color;
+      border: 1px solid @text-color-subtle;
       border-radius: 50%;
       padding: 10px;
       margin: 5px;
@@ -55,8 +58,9 @@
       cursor: pointer;
       width: 50px;
       height: 50px;
+      transition: all 0.2s;
       &:hover {
-        
+        border: 1px solid @text-color;
       }
       & .name {
         background-color: @tree-view-background-color;
