@@ -11,4 +11,3 @@
 - Make a LogPanel
 - Manage logs
 - Add a RefreshButton for generators
-- Add colors on generators
